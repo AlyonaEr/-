@@ -9,7 +9,7 @@ for i in numbers:
         if i % j == 0:
             is_prime = False
             break
-    if is_prime == True:    # можно написать покороче if is_prime:
+    if is_prime:    # расширенный вариант if is_prime == True:
         primes.append(i)
     else:
         not_primes.append(i)
