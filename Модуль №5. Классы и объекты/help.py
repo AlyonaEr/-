@@ -1,5 +1,4 @@
 def go_to(new_floor):
-    floors = 1, new_floor
     if new_floor > number_of_floors or new_floor < 1:
         print("Такого этажа не существует")
     else:
