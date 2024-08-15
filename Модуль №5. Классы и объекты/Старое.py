@@ -13,4 +13,4 @@ class House:
 
 h1 = House(0)
 print(h1)
-setNewNumberOfFloors(15)
+h1.setNewNumberOfFloors(15)

@@ -7,8 +7,7 @@ class Building:
         return f'Кол-во этажей: {self.numberOfFloors}, название: {self.buildingType}'
 
     def __eq__(self, other):
-        return self.numberOfFloors == other.numberOfFloors
-        return self.buildingType == other.buildingType
+        return self.numberOfFloors == other.numberOfFloors and self.buildingType == other.buildingType
 
 
 h1 = Building(10, 'ЖК Эльбрус')
