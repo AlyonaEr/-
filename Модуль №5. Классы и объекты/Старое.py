@@ -6,7 +6,8 @@ class House:
         return f'{self.number_Of_Floors}'
 
     def setNewNumberOfFloors(self, floors):
-        return sum(self.number_Of_Floors, floors)
+        newfloowers = sum(self.number_Of_Floors, floors)
+        return newfloowers
 
 
 
