@@ -2,10 +2,10 @@ import random
 
 n = random.randint(3, 20)
 result = ''
-i = 1
+i = 0
 while i < n:
     i += 1
-    j = i + 1
+    j = i
     while j < n:
         j += 1
         if n % (i + j) == 0:
