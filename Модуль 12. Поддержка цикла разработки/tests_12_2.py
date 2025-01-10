@@ -3,6 +3,7 @@ import unittest
 
 
 class TournamentTest(unittest.TestCase):
+
     def setUp(self):
         self.runner_1 = Runner('Усэйн', 10)
         self.runner_2 = Runner('Андрей', 9)
