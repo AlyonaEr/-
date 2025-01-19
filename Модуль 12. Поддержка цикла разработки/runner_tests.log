@@ -1,4 +1,4 @@
-2025-01-19 21:17:31,291 | WARNING | Неверный тип данных для объекта Runner
+2025-01-19 21:21:42,595 | WARNING | Неверный тип данных для объекта Runner
 Traceback (most recent call last):
   File "C:\Users\Alyona\pythonProjectsForUniversity\lesson0\Модуль 12. Поддержка цикла разработки\tests_12_4.py", line 20, in test_run
     runner_2 = Runner(self)
